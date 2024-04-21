@@ -29,3 +29,9 @@ node --inspect-brk node_modules/.bin/jest --runInBand
 Instale globalmente o npm i -g ntl 
 Ver todos os scripts que estão no package.json: ntl
 Executa o último script que foi executado: nt
+
+Mockar:
+- isolar uma função sem depender de outras funções
+Testes unitários devem ser 100% offline e não depender de nada externo (nada de api ou banco de dados)
+
+Mocks são funções falsas que simulam o comportamento de funções reais, mas sem depender de recursos externos.
