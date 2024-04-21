@@ -1,0 +1,31 @@
+Comando para inicializar package.json: npm init -y
+Setando configuração para o package.json:
+npm pkg set type=module engines.node="v20.11.1" author="arthurpereiradasilva"
+
+Type module garante que o node irá entender o código como ES6, e não como CommonJS, ou seja import e export funcionarão normalmente.
+
+Sempre instale as dependências localmente ao invés de globalmente, pois isso evita problemas de compatibilidade entre diferentes projetos.
+
+O comando npx ele garante que você executar será diretamente da node_modules, sem precisar instalar globalmente.
+
+Instalando jest: npm i jest -D
+Inicando arquivo de configuração do jest: npx jest --init
+√ Would you like to use Jest when running "test" script in "package.json"? ... yes
+√ Would you like to use Typescript for the configuration file? ... no
+√ Choose the test environment that will be used for testing » node
+√ Do you want Jest to add coverage reports? ... no
+√ Which provider should be used to instrument code for coverage? » v8
+√ Automatically clear mock calls, instances, contexts and results before every test? ... yes
+
+npm run testRodar em pararelo e assistir mudanças: 
+Rodar ecmasscript: 
+"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+"test:dev": "npx jest --watchAll --runInBand test/"
+--watchAll --runInBand 
+
+--inspect-brk para debugar o código
+node --inspect-brk node_modules/.bin/jest --runInBand
+
+Instale globalmente o npm i -g ntl 
+Ver todos os scripts que estão no package.json: ntl
+Executa o último script que foi executado: nt

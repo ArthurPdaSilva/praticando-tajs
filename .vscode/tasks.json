@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "label": "run-project-tests",
+      "type": "shell",
+      "command": ["powershell"],
+      "args": [
+        "-Command",
+        "$env:PROJECT_DIR = Split-Path '${file}'; Set-Location -Path $env:PROJECT_DIR; npm run test:debug"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

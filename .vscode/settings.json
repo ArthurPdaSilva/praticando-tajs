@@ -1,0 +1,6 @@
+{
+  "window.zoomLevel": 2
+  // "jest.nodeEnv": {
+  //   "NODE_ENV": "node --experimental-vm-modules"
+  // }
+}
