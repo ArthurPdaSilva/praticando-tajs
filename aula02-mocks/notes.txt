@@ -2,3 +2,6 @@ Rodar arquivo:
 node --watch src/person.js
 
 Teste unitário: é o mock e o nosso teste
+
+Stubs são objetos que simulam o comportamento de objetos reais de forma controlada.
+Stubs diferente de mocks são objetos que simulam o comportamento de objetos reais de forma controlada enquanto mocks são objetos que simulam o comportamento de objetos reais de forma controlada e também verificam se o comportamento esperado foi chamado.
