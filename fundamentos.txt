@@ -1,0 +1,9 @@
+1 Tocar no código só quando estiver 100% certo de que entendeu
+2 Valide o que você entregou de forma automatizado
+3 Prepare o setup de ferramental (testes e debugging) no momento da criação do projeto
+
+// TDD OU BDD
+// Test Driven Development é uma técnica de desenvolvimento de software que se baseia em um ciclo curto de repetições: Primeiramente o desenvolvedor escreve um teste automatizado que define uma melhoria desejada ou uma nova funcionalidade. Então, é produzido código que possa ser validado pelo teste para, em seguida, ser refatorado para um código mais limpo. O ciclo é então repetido.
+Crie o ferramental de testes antes de começar a codificar
+
+// Behavior Driven Development é uma técnica de desenvolvimento de software que visa integrar regras de negócio com linguagens de programação. O BDD é uma evolução do TDD, pois, enquanto o TDD foca na implementação de testes, o BDD foca no comportamento do software. O BDD é uma técnica que visa integrar regras de negócio com linguagens de programação. O BDD é uma evolução do TDD, pois, enquanto o TDD foca na implementação de testes, o BDD foca no comportamento do software.

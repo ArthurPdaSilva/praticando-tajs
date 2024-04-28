@@ -1,4 +1,4 @@
-import { beforeEach, describe, jest } from "@jest/globals";
+import { beforeEach, describe, expect, jest } from "@jest/globals";
 import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import Service from "../src/service.js";
