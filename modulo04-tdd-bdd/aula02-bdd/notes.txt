@@ -1,0 +1,19 @@
+BDD → apróxima o time de desenvolvimento do time de negócio
+BDD é behavior-driven development, ou desenvolvimento orientado a comportamento. É uma técnica de desenvolvimento de software que visa aproximar o time de desenvolvimento do time de negócio, através de uma linguagem comum, que é a linguagem de comportamento.
+
+Exemplo: 
+Dado, Quando e Então
+Gherkin Style (Linguagem de comportamento) para escrever casos de uso
+
+Os três AAA de tdd vira em BDD:
+Arrange, Act, Assert → Given, When, Then
+
+"test:dev": "node --watch node_modules/.bin/cucumber-js --fail-fast --format progress --format html:cucumber-report.html
+",
+ fail-fast faz com que o teste pare no primeiro erro
+progress mostra o progresso do teste
+--format html:cucumber-report.html gera um relatório em html
+
+ Background é setup
+When tem que ter nomes diferentes
+ // No cucumber tudo é global
