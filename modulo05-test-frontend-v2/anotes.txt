@@ -1,0 +1,10 @@
+Rodando o cypress: `npx cypress open`
+
+No cypress você pode rodar os testes de forma visual ou em modo headless.
+A pasta fixtures é onde você pode colocar os arquivos de dados que serão utilizados nos testes. (Mocks)
+Support é onde você pode colocar funções que serão utilizadas em todos os testes.
+e2e é onde você coloca os testes em si.
+
+Para fazer a bateria de CI é interessante dar um npx cypress run e rodar no terminal, para que ele execute todos os testes e retorne o resultado.
+
+concurrently@8.2.2 // Para rodar o cypress e o servidor ao mesmo tempo. Ele roda os dois comandos simultaneamente.
