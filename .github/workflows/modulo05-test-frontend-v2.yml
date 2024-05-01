@@ -2,12 +2,13 @@ name: Cypress Tests - modulo05-test-frontend-v2
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "modulo05-test-frontend-v2/**.js"
-      - "modulo05-test-frontend-v2/**.json"
-      - "modulo05-test-frontend-v2/**.yml"
+    workflow_dispatch:
+      branches:
+        - main
+      paths:
+        - "modulo05-test-frontend-v2/**.js"
+        - "modulo05-test-frontend-v2/**.json"
+        - "modulo05-test-frontend-v2/**.yml"
 
 jobs:
   modulo05-test-frontend-v2-tests:
