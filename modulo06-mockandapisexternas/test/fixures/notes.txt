@@ -1,0 +1,1 @@
+fixures são em testes unitários para mockar estatos de um componente, e não para testar a interação entre componentes. Para isso, é recomendado o uso de testes de integração.
